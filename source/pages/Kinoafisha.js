@@ -45,6 +45,8 @@ export class Kinoafisha extends Component {
         };
     };
 
+
+
     render() {
         const styles = getStyles(this.state);
 
@@ -62,6 +64,9 @@ export class Kinoafisha extends Component {
                         <span className = 'genre'>{movie.genre}</span>
                         <img src = { movie.poster } />
                         <span className = 'rating'>{movie.rating}</span>
+                    
+
+                    
                     </div>
                     <span className = 'title'>{movie.title}</span>
                 </div>
@@ -93,18 +98,20 @@ export class Kinoafisha extends Component {
                         </div>
                     </div>
                 </div>
+
+
+
                 <div className = 'content'>{moviesJSX}</div>
                 <div className = 'footer' > {/* FOOTER ADDED */}
                 <a href='mailto:team@lectrum.io'>team@lectrum.io</a>
-                team@lectrum.io
                 <span>
                     2018 © Все права защищены. Разработано с любовью&nbsp;
                     <a href="https://lectrum.io/intensive/react" target="_blank" rel="noopener noreferrer" >в Лектруме
                     </a>
                 </span>
-                <div class="social">
-                <a class="facebook" href="https://www.facebook.com/lectrum/" target="_blank" rel="noreferrer noopener" ></a>
-                <a class="telegram" href="https://t.me/lectrum" target="_blank" rel="noreferrer noopener" ></a>
+                <div className="social">
+                <a className="facebook" href="https://www.facebook.com/lectrum/" target="_blank" rel="noreferrer noopener" ></a>
+                <a className="telegram" href="https://t.me/lectrum" target="_blank" rel="noreferrer noopener" ></a>
                 </div>
                 </div>
             </>
