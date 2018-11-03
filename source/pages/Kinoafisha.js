@@ -94,6 +94,19 @@ export class Kinoafisha extends Component {
                     </div>
                 </div>
                 <div className = 'content'>{moviesJSX}</div>
+                <div className = 'footer' > {/* FOOTER ADDED */}
+                <a href='mailto:team@lectrum.io'>team@lectrum.io</a>
+                team@lectrum.io
+                <span>
+                    2018 © Все права защищены. Разработано с любовью&nbsp;
+                    <a href="https://lectrum.io/intensive/react" target="_blank" rel="noopener noreferrer" >в Лектруме
+                    </a>
+                </span>
+                <div class="social">
+                <a class="facebook" href="https://www.facebook.com/lectrum/" target="_blank" rel="noreferrer noopener" ></a>
+                <a class="telegram" href="https://t.me/lectrum" target="_blank" rel="noreferrer noopener" ></a>
+                </div>
+                </div>
             </>
         );
     }
